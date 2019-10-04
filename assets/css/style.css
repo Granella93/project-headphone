@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#2e2e2e;
+}
+/* Start Obere Navigation */
+header{
+    display: flex;
+    height: 15vh;
+}
+.sticky1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+   position: relative;
+   left: 3em;
+}
+.div1{
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    height: 15vh;
+    width: 30vw;
+    left:55em;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+header a , header li{
+    text-decoration: none;
+    color: #867772;
+    list-style: none;
+}
+header a:hover{
+    border-bottom: #867772 solid;
+    color: rgb(234, 204, 194);
+}
+/* Ende Obere Navigation */
+
+/* Start Aside Navigation */
+
+.sticky2 a , .sticky2 li{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    padding-top:3em;
+    padding-left: 2.5em;
+}
+main a:hover{
+    color: white;
+}
+main a:active { 
+    color: white;
+}
+aside{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 50vh;
+}
+.sticky2{
+    position: fixed;
+    top: 25vh;
+    width: 100%;
+}
+
+.sticky2 a:before{
+display: block;
+content: '';
+position: absolute;
+left: 30px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 1px solid rgb(115, 115, 115);
+}
+
+.sticky2 li::after{
+    display: block;
+content: '';
+position: absolute;
+left: 30px;
+width: 0px;
+height: 30px;
+border: 1px solid rgb(115, 115, 115);
+}
+
+
+/* Ende Aside Navigation */
+/* Start ABOUT */
+
+ main section h2:first-child{
+    position: relative;
+    top: 3em;
+    left: 10em;
+    font-size: 3em;
+    width: 10em;
+    color: rgb(234, 204, 194);
+}
+.img1{
+    height: 110vh;
+    position: relative;
+    top: 20em;
+    left: 5em;
+    z-index: -1;
+}
+.img2{
+    height: 60vh;
+    float: left;
+}
+.aboutdiv1{
+    position: absolute;
+    top: 95em;
+    left: 15em;
+    margin: auto;
+}
+.about-h2{
+    position: relative;
+    left:2em;
+    font-size: 3em;
+    color: rgb(234, 204, 194);
+}
+.aboutdiv1 p{
+    position: relative;
+    top:2em;
+    left:4em;
+    font-size: 1.5em;
+    color: #867772;
+    width: 40em;
+    padding-bottom: 5em;
+}
+/* ABOUT ende */
+/* Start LOUNGER */
+
+.img3{
+    display: flex;
+    height: 100vh;
+    width: 65%;
+    float: left;
+}
+.loungerdiv1{
+    position: relative;
+    z-index: -1;
+    width: 80em;
+}
+.loungerdiv1 h2{
+    font-size: 2.5em;
+    color: rgb(234, 204, 194);
+    position: relative;
+    top: 4em;
+    left: 1.5em;
+}
+.loungerdiv1 p{
+    color: rgb(115, 115, 115);
+    line-height: 2em;
+    position: relative;
+    top:15em;
+    left:3.5em;
+    right: 2em;
+}
+/* Ende LOUNGER */
+/* Start  EXPERIENCE*/
+.img4{
+    display: flex;
+    height: 100vh;
+    width: 60%;
+    float: left;
+}
+.experiencediv1{
+    position: relative;
+    z-index: -1;
+    width: 80em;
+}
+.experiencediv1 h2{
+    font-size: 2.5em;
+    color: rgb(234, 204, 194);
+    position: relative;
+    top: 4em;
+    left: 1.5em;
+}
+.experiencediv1 p{
+    color: rgb(115, 115, 115);
+    line-height: 2em;
+    position: relative;
+    top:15em;
+    left:3.5em;
+    right: 2em;
+}
+/* Ende EXPERIENCE */
+/* Start 4 */
+
+.video{
+    position: relative;
+    top:-12em;
+    left: 15em;
+    z-index: -1;
+}
+.video p{
+    position: relative;
+    color: rgb(234, 204, 194);
+    font-size: 1.5em;
+    top:-5em;
+}
+.video h2{
+    position: relative;
+    top: -2em;
+    color: rgb(234, 204, 194);
+    font-size: 3em;
+}
+.video a{
+    color:rgb(115, 115, 115);
+    text-decoration: none;
+    position: relative;
+    padding:1em;
+    margin-left: 1em;
+    top: -2em;
+    border: rgb(115, 115, 115) solid 1px;
+    border-radius: 1em;
+}
+.video p:last-of-type{
+    font-size: 1.2em;
+    position: relative;
+    color:rgb(115, 115, 115);
+    top: 2em;
+}
+
+.div2 img{
+    height: 30em;
+    z-index: -1;
+}
+
+.div2 img:first-of-type{
+    position: relative;
+    left:15em;
+    float: left;
+    
+}
+
+.div2 img:last-of-type{
+    position: relative;
+    left:15em;
+    top:30em;
+    clear: both;
+    padding-bottom: 10em;
+
+}
+.article1{
+    position: relative;
+    left: 47em;
+    top: -32em;
+    width: 25em;
+}
+.article1 h3{
+    font-size: 1em;
+    color:rgb(234, 204, 194);
+}
+.article1 h2{
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:rgb(234, 204, 194);
+}
+.article1 p{
+    color: #867772;
+}
+
+.article2{
+    position: relative;
+    left: 17em;
+    top: -15em;
+    width: 25em;
+}
+.article2 h3{
+    font-size: 1em;
+    color:rgb(234, 204, 194);
+}
+.article2 h2{
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:rgb(234, 204, 194);
+}
+.article2 p{
+    color: #867772;
+}
+
+/* Ende 4 */
+/* Start 5 */
+.img6{
+    display: flex;
+    height: 100vh;
+    width: 60%;
+    float: left;
+}
+
+.img7{
+    position: relative;
+    top:3em;
+    left:7em;
+}
+.shopdiv1{
+    position: relative;
+    z-index: -1;
+    width: 80em;
+}
+.shopdiv1 h3{
+    font-size: 2em;
+    color: rgb(234, 204, 194);
+    position: relative;
+    top: 1em;
+    left: 8.3em;
+}
+.shopdiv1 p{
+    color: rgb(115, 115, 115);
+    position: relative;
+    top:4em;
+    left:6em;
+    text-align: center;
+    
+}
+
+.shopdiv1 a{
+    position:relative;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(234, 204, 194);
+    padding:1em 2em;
+    top:6em;
+    left: 19em;
+    border:white solid 2px;
+    border-radius: 1em;
+}
